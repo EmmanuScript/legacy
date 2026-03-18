@@ -5,20 +5,17 @@ function Testimonials() {
     {
       text: "Krelis Legacy College transformed my daughter's academic journey. She scored 320 in JAMB and is now studying Medicine at the University of Lagos. The teachers are dedicated and the environment is excellent!",
       name: "Mrs. Chioma Adebayo",
-      role: "Parent",
-      img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80"
+      role: "Parent"
     },
     {
       text: "The JAMB tutorial program here is exceptional. I scored 298 and gained admission to study Engineering at Covenant University. The CBT practice sessions and dedicated teachers made all the difference.",
       name: "Tunde Ogunleye",
-      role: "Former Student",
-      img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80"
+      role: "Former Student"
     },
     {
       text: "As an educator myself, I am impressed with the school's curriculum and teaching methods. My son has shown remarkable improvement in both academics and character. I highly recommend Krelis Legacy College!",
       name: "Dr. Fatima Mohammed",
-      role: "Parent & Educator",
-      img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&q=80"
+      role: "Parent & Educator"
     }
   ];
 
@@ -38,11 +35,8 @@ function Testimonials() {
               </div>
               <p>"{testimonial.text}"</p>
               <div className="testimonial-author">
-                <img src={testimonial.img} alt={testimonial.name} />
-                <div>
-                  <h4>{testimonial.name}</h4>
-                  <span>{testimonial.role}</span>
-                </div>
+                <h4>{testimonial.name}</h4>
+                <span>{testimonial.role}</span>
               </div>
             </div>
           ))}
