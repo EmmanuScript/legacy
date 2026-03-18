@@ -27,7 +27,7 @@ function NewsDetail() {
         
         <p>With university admission becoming more competitive each year, the role of proper JAMB preparation cannot be overstated. The difference between a score of 180 and 250 can be the difference between gaining admission and having to wait another year. As the school's motto states, "What is worth doing at all is worth doing well"—and for students serious about their university education, that means investing in proper preparation.</p>
         
-        <p>Registration for the upcoming JAMB tutorial session is now open, with spaces limited to maintain the program's high-quality, personalized approach. Interested students and parents can contact Krelis Legacy College at <strong>+234 816 180 3338</strong> or visit the campus at <strong>18 Atinmo St, Ikosi Ketu, Lagos 105102</strong> for registration and more information about the program. Early registration is strongly encouraged as spaces fill up quickly as the examination date approaches.</p>
+        <p>Registration for the upcoming JAMB tutorial session is now open, with spaces limited to maintain the program's high-quality, personalized approach. Interested students and parents can contact Krelis Legacy College at <strong>+234 807 053 2369</strong> or visit the campus at <strong>18 Atinmo St, Ikosi Ketu, Lagos 105102</strong> for registration and more information about the program. Early registration is strongly encouraged as spaces fill up quickly as the examination date approaches.</p>
       `,
     },
     2: {
@@ -55,7 +55,7 @@ function NewsDetail() {
         
         <p>Director Ajibola Onanuga, who attended the session, emphasized that this is just the beginning of expanded health education programming at the school. "Education is not just about academics," he noted. "It's about preparing our students for all aspects of life, including understanding and managing their health. We're committed to providing them with the knowledge and resources they need."</p>
         
-        <p>The school is planning to host more health awareness sessions throughout the academic year, covering various topics relevant to adolescent health and wellness. For parents interested in learning more about the school's health education programs or upcoming events, contact information is available at the school office. Krelis Legacy College is located at <strong>18 Atinmo St, Ikosi Ketu, Lagos 105102</strong>, and can be reached at <strong>+234 816 180 3338</strong>.</p>
+        <p>The school is planning to host more health awareness sessions throughout the academic year, covering various topics relevant to adolescent health and wellness. For parents interested in learning more about the school's health education programs or upcoming events, contact information is available at the school office. Krelis Legacy College is located at <strong>18 Atinmo St, Ikosi Ketu, Lagos 105102</strong>, and can be reached at <strong>+234 807 053 2369</strong>.</p>
       `,
     },
     3: {
@@ -89,7 +89,7 @@ function NewsDetail() {
         
         <p>Admission for the 2026/2027 academic session is currently ongoing, with spaces available in all secondary school classes. The admission process includes completion of an application form, an entrance examination to ensure appropriate placement, and an interview where the school can learn about each prospective student's interests, goals, and needs. Early application is encouraged as spaces are limited.</p>
         
-        <p>Families interested in learning more about Krelis Legacy College's secondary school program can schedule a tour by contacting the school at <strong>+234 816 180 3338</strong> or visiting the campus at <strong>18 Atinmo St, Ikosi Ketu, Lagos 105102</strong>. The admissions team is available to answer questions, provide detailed information about the curriculum, and discuss how the school can support each student's unique educational journey.</p>
+        <p>Families interested in learning more about Krelis Legacy College's secondary school program can schedule a tour by contacting the school at <strong>+234 807 053 2369</strong> or visiting the campus at <strong>18 Atinmo St, Ikosi Ketu, Lagos 105102</strong>. The admissions team is available to answer questions, provide detailed information about the curriculum, and discuss how the school can support each student's unique educational journey.</p>
       `,
     },
   };

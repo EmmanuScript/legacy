@@ -63,9 +63,9 @@ function Contact() {
               <div>
                 <h4>Phone Numbers</h4>
                 <p>
-                  +234 816 180 3338
+                  +234 807 053 2369
                   <br />
-                  +234 803 456 7890
+                  +234 802 589 7483
                 </p>
               </div>
             </div>
@@ -76,9 +76,9 @@ function Contact() {
               <div>
                 <h4>Email Address</h4>
                 <p>
-                  info@krelislegacy.ng
+                  info@krelis-legacy.com
                   <br />
-                  admissions@krelislegacy.ng
+                  admissions@krelis-legacy.com
                 </p>
               </div>
             </div>
@@ -116,7 +116,7 @@ function Contact() {
                   }}
                 >
                   For urgent inquiries, please call us at{" "}
-                  <strong>+234 816 180 3338</strong>
+                  <strong>+234 807 053 2369</strong>
                 </p>
               </div>
             ) : (
@@ -219,7 +219,7 @@ function Contact() {
                     <i className="fas fa-exclamation-circle"></i>
                     <p>
                       Failed to send message. Please try again or contact us
-                      directly at +234 816 180 3338.
+                      directly at +234 807 053 2369.
                     </p>
                   </div>
                 )}

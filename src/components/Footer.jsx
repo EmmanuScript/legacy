@@ -28,11 +28,11 @@ function Footer() {
               </div>
               <div className="footer-info-item">
                 <i className="fas fa-phone"></i>
-                <span>+234 816 180 3338</span>
+                <span>+234 807 053 2369</span>
               </div>
-              <div className="footer-info-item">
+              <div className="footer-contact-item">
                 <i className="fas fa-envelope"></i>
-                <span>info@krelislegacy.ng</span>
+                <span>info@krelis-legacy.com</span>
               </div>
               <div className="footer-info-item">
                 <i className="fas fa-clock"></i>
