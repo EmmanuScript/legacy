@@ -1,0 +1,95 @@
+.programs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.program-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.program-card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-lg);
+}
+
+.program-image {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.program-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.program-card:hover .program-image img {
+  transform: scale(1.1);
+}
+
+.program-content {
+  padding: 30px;
+}
+
+.program-icon {
+  width: 60px;
+  height: 60px;
+  background: rgba(139, 69, 19, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.program-icon i {
+  font-size: 28px;
+  color: var(--primary-color);
+}
+
+.program-card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: var(--dark-color);
+}
+
+.program-card p {
+  color: var(--text-light);
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.program-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: none;
+  transition: gap 0.3s;
+}
+
+.program-link:hover {
+  gap: 12px;
+}
+
+.program-link i {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .programs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .program-image {
+    height: 200px;
+  }
+}

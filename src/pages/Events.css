@@ -1,0 +1,182 @@
+.events-page {
+  min-height: 100vh;
+  background: var(--light-color);
+}
+
+.events-header {
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--dark-color) 100%
+  );
+  color: #fff;
+  padding: 120px 0 60px;
+  text-align: center;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-weight: 500;
+  transition: transform 0.3s;
+}
+
+.back-link:hover {
+  transform: translateX(-5px);
+}
+
+.events-header h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.events-header p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.events-content {
+  padding: 60px 0;
+}
+
+.events-grid {
+  display: grid;
+  gap: 30px;
+}
+
+.event-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: all 0.3s;
+  display: grid;
+  grid-template-columns: 350px 1fr;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.event-image {
+  position: relative;
+  height: 100%;
+  min-height: 250px;
+}
+
+.event-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.event-category {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.event-category.sports {
+  background: #e74c3c;
+}
+
+.event-category.holiday {
+  background: #3498db;
+}
+
+.event-category.academic {
+  background: #2ecc71;
+}
+
+.event-category.examination {
+  background: #f39c12;
+}
+
+.event-details {
+  padding: 30px;
+}
+
+.event-details h2 {
+  font-size: 28px;
+  color: var(--dark-color);
+  margin-bottom: 20px;
+}
+
+.event-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-light);
+  font-size: 14px;
+}
+
+.meta-item i {
+  color: var(--primary-color);
+  font-size: 16px;
+}
+
+.event-details p {
+  color: var(--text-light);
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+@media (max-width: 968px) {
+  .event-card {
+    grid-template-columns: 1fr;
+  }
+
+  .event-image {
+    height: 250px;
+    min-height: 250px;
+  }
+
+  .events-header h1 {
+    font-size: 36px;
+  }
+
+  .event-details h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .events-header {
+    padding: 100px 0 40px;
+  }
+
+  .events-header h1 {
+    font-size: 28px;
+  }
+
+  .event-meta {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .event-details {
+    padding: 20px;
+  }
+}
